@@ -15,6 +15,13 @@ Using np.linalg.inv we can inverse the matrix
 End the program
 
 ## Program:
+#Program to find the inverse of a matrix.
+#Developed by: DEENESH RAJ G
+#RegisterNumber:212225040056
+import numpy as np
+A = np.array([[1, 0, 3], [-1, 2, -2], [2, 3, -1]])
+b = np.linalg.inv(A)
+print(b)
 ## Output:
 <img width="1158" height="824" alt="Screenshot 2026-03-17 103726" src="https://github.com/user-attachments/assets/5a452b54-e815-42fa-8d28-6830ab6bbaf9" />
 
